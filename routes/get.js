@@ -1,6 +1,6 @@
 const express = require('express');
-const router = express.Router(); 
-const expressJwt = require('express-jwt'); 
+const router = express.Router();
+const Feeds = require('../api/getFeeds'); 
 router
-.get('/feeds', require('../api/getFeeds'))
+.get('/feeds', new Feeds().getTwitterEntities)
 module.exports = router;
