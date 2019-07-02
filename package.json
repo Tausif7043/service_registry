@@ -20,6 +20,7 @@
     "mongoose": "^5.4.19",
     "password-hash": "^1.2.2",
     "q": "^1.5.1",
+    "twitter": "^1.7.1",
     "twitter-node-client": "0.0.6",
     "underscore": "^1.9.1",
     "validator": "^10.11.0"
